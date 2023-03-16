@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * This program prints out different sizes of various types.
- * Main prints out multiple strings to stdout.
+ * Program that displays sizes of various types.
+ * Description:main prints out sizes of various types.
  * Return 0 if success.
- **/
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));

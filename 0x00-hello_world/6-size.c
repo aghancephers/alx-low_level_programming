@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Program that displays sizes of various types.
- * Description:main prints out sizes of various types.
- * Return 0 if success.
+*Program that displays sizes of various types.
+*Description:main prints out sizes of various types.
+*Return 0 if success.
 */
 int main(void)
 {

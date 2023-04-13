@@ -1,3 +1,7 @@
+#include <stddef.h>
+#include <stdlib.h>
+#include "main.h"
+
 /**
 * *_memset - sets the first n bytes of the memory area pointed to by s to the specified value
 *@s: pointer to the memory area to be filled
@@ -41,5 +45,5 @@ return (NULL);
 for (i = 0; i < nmemb * size; ++i)
 *(ptr + i) = 0;
 
-return (void *ptr);
+return (void) *ptr;
 }

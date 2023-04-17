@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
 			_putchar(result[i] + '0');  // print each non-zero element in the result array
 		i++;
 	}
-	if (!a)
+if (!a)
 		_putchar('0');  // if the result is
 		_putchar('\n');
 
